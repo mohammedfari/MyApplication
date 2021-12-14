@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray"
+    android:layout_margin="15dp"
+    android:layout_height="110dp"
+    app:cardElevation="15dp"
+    app:cardCornerRadius="15dp"
+    android:padding="15dp"
+   >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4.5"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="170dp"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:paddingEnd="15dp"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/star_iv"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@color/white">
+
+            </ImageView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv"
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            app:srcCompat="@mipmap/ic_launcher" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

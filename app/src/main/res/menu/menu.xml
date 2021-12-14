@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu"
+        android:title="الأشتراك">
+        <menu>
+            android:id="@+id/menu"
+            android:title="الأشتراك"
+
+        </menu>
+
+        </item>
+
+    <item
+        android:id="@+id/menu1"
+        android:title="من نحن !" />
+
+    <item
+        android:id="@+id/menu2"
+        android:title="تقيم التطبيق" />
+
+    <item
+        android:id="@+id/menu3"
+        android:title="خروج" />
+
+    <item
+        android:id="@+id/menu4"
+        android:title="الوضع الليلي" />
+
+    <item
+        android:id="@+id/menu5"
+        android:title="مشاركة التطبيق" />
+
+
+</menu>
